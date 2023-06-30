@@ -1,0 +1,152 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 160vh;
+            
+            justify-content: center;
+            background-image: url(./img/fotos/promicones.jpg);
+            font-family: 'Gill Sans';
+        }
+
+        .contenedor-tarjetas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 4rem;
+            
+        }
+
+        .tarjeta {
+            width: 300px;
+            height: 300px;
+            margin-top: 5rem;
+            border-radius: 7px;
+            box-shadow: 0 0 10px rgb(255, 95, 2);
+            overflow: hidden;
+            cursor: pointer;
+            position: relative; /* Añadido */
+        }
+
+        .tarjeta .tarjeta-imagen {
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/fotos/comida.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .tarjeta .tarjeta-imagen1 {
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/fotos/img2.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .tarjeta .tarjeta-imagen2 {
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/fotos/img3.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .tarjeta .tarjeta-imagen3{
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/fotos/img4.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .tarjeta .tarjeta-imagen4 {
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/fotos/img5.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .tarjeta .tarjeta-imagen5 {
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/fotos/img6.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .tarjeta .tarjeta-contenido {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            margin: 1px;
+            color: white;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            text-align: center;
+            border-radius: 7px;
+            transform: translateY(100%);
+            transition: 400ms ease;
+        }
+
+        .tarjeta .tarjeta-contenido .tarjeta-boton {
+            color: black;
+            background-color: white;
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 7px;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            outline: 3px solid white;
+            outline-offset: 4px;
+        }
+
+        .tarjeta:hover .tarjeta-contenido { 
+            transform: translateY(0);
+        }
+        .navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.antes {
+    color: red;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+  

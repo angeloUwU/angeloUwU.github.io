@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(img/fotos/fondologin.png)
+}
+
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 75px;
+    border: 1px solid #ccc;
+    border-radius: 21px;
+    background: url(img/fotos/loginzzz.jpg);
+}
+
+.title {
+    text-align: center;
+    color: #000000;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+i.fa-solid {
+    display: inline-block;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: underline;
+}
+
+.link   {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.link:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
